@@ -1,0 +1,88 @@
+.section-padding {
+    height: 300px;
+    background-size: cover;    
+}
+.zigzak-text-bg-1{
+    z-index: 3;
+    border-bottom:10px solid #F1C40F;
+}
+.zigzag-text {
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    height: 300px;
+    margin: 0;
+    padding-left: 50px;
+}
+.zigzag-text a {
+    width: 140px;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #F1C40F;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.zigzag-text-1 a {
+    width: 140px;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #F1C40F;
+    text-decoration: none;
+    color: #fff;
+}
+.zigzag-text::after{
+    position: absolute;
+    left: -4200px;
+    top: 0;
+    height: 100%;
+    background-color: black;
+    content: "";
+    z-index: 1;
+    transform: skew(10deg);
+    width: 5000px;
+    z-index: -3;
+    bottom: 0;
+    border-bottom:10px solid #F1C40F;
+    
+}
+
+.zigzag-text-1 {    
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    height: 300px;
+    margin: 0;
+    padding-left: 50px;
+}
+.zigzag-text p,.zigzag-text-1 p{
+    color: #fff;
+   
+}
+
+.zigzag-text h2{
+    color: #fff;
+    padding-top: 40px;
+}
+.zigzag-text-1 h2{
+    color: #fff;
+    padding-top: 40px;
+}
+
+.zigzag-text-1::after{
+    position: absolute;
+    left: -100px;
+    top: 0;
+    height: 100%;
+    background-color: #54EAD8;
+    content: "";
+    z-index: 1;
+    transform: skew(10deg);
+    width: 5000px;
+    z-index: -3;
+    bottom: 0;
+    
+}
+
